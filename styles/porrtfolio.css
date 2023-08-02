@@ -65,7 +65,8 @@ nav a {
   justify-content: space-between;
 }
 .banner-content {
-  max-width: 500px;
+  max-width: 350px;
+  margin-left: 80px;
 }
 .banner .profile-pic {
   width: 500px;
@@ -131,4 +132,32 @@ about-info {
   color: #474747;
   font-size: 30px;
   font-weight: 700px;
+}
+
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-item-institude {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.resume-item-institude,
+.resume-item-description {
+  color: #757575;
+}
+
+.resume-container-hr {
+  margin: 30px;
+}
+
+.download-cv {
+  text-align: center;
+  margin: 50px;
 }
