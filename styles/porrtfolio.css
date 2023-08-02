@@ -161,3 +161,12 @@ about-info {
   text-align: center;
   margin: 50px;
 }
+
+/* footer styles */
+.footer-column {
+  display: flex;
+  justify-content: space-between;
+  background: #fff8f3;
+  margin-top: 100px;
+  padding: 130px 200px;
+}
